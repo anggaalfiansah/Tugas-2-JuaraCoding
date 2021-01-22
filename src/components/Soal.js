@@ -9,6 +9,7 @@ class Soal extends Component {
             radio: ''
         }
     }
+
     onRadio = (e) => {
         this.setState({
             radio: e.currentTarget.value
@@ -40,7 +41,7 @@ class Soal extends Component {
         // Jika Tipe Soal Berbentuk radio (a,b,c,d)
         else if (data.type === 'radio') {
             return (
-                <form>
+                <div>
                     <div className="form-check">
                         <input className="form-check-input" id="a" type="radio" value={data.a} checked={this.state.radio === data.a} onChange={this.onRadio} />
                         <label className="form-check-label" htmlFor="a">{data.a}</label>
@@ -57,7 +58,7 @@ class Soal extends Component {
                         <input className="form-check-input" id="d" type="radio" value={data.d} checked={this.state.radio === data.d} onChange={this.onRadio} />
                         <label className="form-check-label" htmlFor="d">{data.d}</label>
                     </div>
-                </form>
+                </div>
             )
         }
     }

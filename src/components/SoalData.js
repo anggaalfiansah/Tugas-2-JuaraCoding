@@ -10,15 +10,6 @@ export const SoalData = [
         jawab: 'b'
     },
     {
-        type: 'radio',
-        soal: 'Siapa Musuh Gamboet BrotherHood ?',
-        a: 'Selili',
-        b: 'Akatsuki',
-        c: 'Sahabat Bulu Burung',
-        d: 'Sunda Empire',
-        jawab: 'a'
-    },
-    {
         type: 'checkbox',
         soal: 'Pilihlah 2 hal yang benar mengenai Maddog Greget',
         option: ['Greget', 'Musuh Chuck Norris', 'Banci', 'Suka Black Pink'],
