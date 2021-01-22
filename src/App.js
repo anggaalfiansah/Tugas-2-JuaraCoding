@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Soal from './components/Soal';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <h1 className="text-center mt-3">Tugas 2</h1>
+      <div className="mx-auto my-5 px-5 py-3 border">
+        <Soal/>
+      </div>
     </div>
   );
 }
