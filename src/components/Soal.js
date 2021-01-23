@@ -31,20 +31,20 @@ class Soal extends Component {
             return (
                 <div>
                     <div className="form-check">
-                        <input className="form-check-input" type="radio" name={data.soal} id={data.a} value={data.a} />
-                        <label className="form-check-label" htmlFor={data.a}>{data.a}</label>
+                        <input className="form-check-input" type="radio" name={data.soal} value="a" />
+                        <label className="form-check-label">{data.a}</label>
                     </div>
                     <div className="form-check">
-                        <input className="form-check-input" type="radio" name={data.soal} id={data.b} value={data.b} />
-                        <label className="form-check-label" htmlFor={data.b}>{data.b}</label>
+                        <input className="form-check-input" type="radio" name={data.soal} value="b" />
+                        <label className="form-check-label">{data.b}</label>
                     </div>
                     <div className="form-check">
-                        <input className="form-check-input" type="radio" name={data.soal} id={data.c} value={data.c} />
-                        <label className="form-check-label" htmlFor={data.c}>{data.c}</label>
+                        <input className="form-check-input" type="radio" name={data.soal} value="c" />
+                        <label className="form-check-label">{data.c}</label>
                     </div>
                     <div className="form-check">
-                        <input className="form-check-input" type="radio" name={data.soal} id={data.d} value={data.d} />
-                        <label className="form-check-label" htmlFor={data.d}>{data.d}</label>
+                        <input className="form-check-input" type="radio" name={data.soal} value="d" />
+                        <label className="form-check-label">{data.d}</label>
                     </div>
                 </div>
             )
