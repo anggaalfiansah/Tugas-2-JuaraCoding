@@ -1,6 +1,5 @@
 // Tambah Soal Disini
 export const SoalData = [
-<<<<<<< HEAD
   {
     type: "radio",
     soal: "Siapa Pemilik Lele Megalodon ?",
