@@ -1,5 +1,6 @@
 // Tambah Soal Disini
 export const SoalData = [
+<<<<<<< HEAD
   {
     type: "radio",
     soal: "Siapa Pemilik Lele Megalodon ?",
@@ -71,4 +72,4 @@ export const SoalData = [
     type: "essay",
     soal: "Apa Pendapatmu Tentang Udin Gamboet ?",
   },
-];
+]
